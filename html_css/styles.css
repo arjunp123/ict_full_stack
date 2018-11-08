@@ -8,6 +8,16 @@
         .myclass{
                 background: lightseagreen
                  }
+        .mytitle{
+                margin-left:600px;
+        }
+        .mydiv{
+                border: 1px solid black;
+                width:500px;
+                background-color:green;
+                margin-left: 400px;
+                
+        }
     
     
     
