@@ -1,0 +1,22 @@
+
+        body{
+            background:yellow;
+         }
+    .mytr{
+            background:lightblue
+        }
+    .myclass{
+            background: lightseagreen
+             }
+    .mytitle{
+            margin-left:450px;
+    }
+    .mydiv{
+            border: 1px solid black;
+            width:450px;
+            background-color:lightblue;
+            margin-left: 300px;
+            
+    }
+
+
