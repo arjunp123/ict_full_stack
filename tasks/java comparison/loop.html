@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+        <script>
+                function forloop()
+                {
+                      for(i=1;i<=100;i++)
+                      {
+                            console.log("india is my country"+i)
+                      }
+                }
+                function whileloop()
+                {
+                    i=0;
+                    while(i<=10)
+                    {
+                        console.log(i);
+                        i++;
+                    }
+
+                }
+                function breakcheck()
+                {
+
+
+                    var i=0;
+                    while(i<10)
+                    {
+                        if(i==6)
+                        {
+                            break;
+                        }
+                        else
+                        {
+                            console.log(i);
+                        }i++;
+                    }
+                }
+                function continuecheck()
+                {
+
+                    var i=0;
+                    while(i<10)
+                    {
+                        if(i==6)
+                        
+                        {
+                            i++;
+                            continue;
+                        }
+                        else
+                        {
+                            console.log(i);
+                        }i++;
+                    }
+                }
+        
+        </script>
+    
+</body>
+
+        <br><br>
+        <div class="row">
+
+            <div class="col-sm-8"><button class="btn btn-info" onclick="forloop();">FORLOOP</button></div>
+            <div class="col-sm-8"><button class="btn btn-info" onclick="whileloop();">WHILELOOP</button></div>
+            <div class="col-sm-8"><button class="btn btn-info" onclick="breakcheck();">BREAK CHECK</button></div>
+            <div class="col-sm-8"><button class="btn btn-info" onclick="continuecheck();">CONTINUE CHECK</button></div>
+
+
+
+
+        </div>
+</html>

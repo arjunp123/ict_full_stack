@@ -14,10 +14,12 @@ function read()
         if(x>z)
         {
             console.log(x);
+            var res=x;
         }
         else
         {
            console.log(z);
+           var res=z;
         }
     }
     else
@@ -25,12 +27,15 @@ function read()
         if(y>z)
         {    
           console.log(y);
+          var res=y;
         }
         else
         {
             console.log(z);
+            var res=z;
         }
     }
+    document.getElementById("result").innerHTML= "<table class='table'><tr><td>'result is  : '</td> <td> " +res+ "</td></tr> </table>"
   }
 
 
@@ -49,22 +54,23 @@ function read()
     {
         if(x<z)
         {
-            console.log(x);
+          var res=x;
         }
         else
         {
-           console.log(z);
+          var res=z;
         }
     }
     else
     {
         if(y<z)
         {    
-          console.log(y);
+         var res=y;
         }
         else
         {
-            console.log(z);
+           var res=z
         }
     }
+    document.getElementById("result").innerHTML=res;
   }
