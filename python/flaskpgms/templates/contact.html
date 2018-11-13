@@ -1,0 +1,63 @@
+{% extends 'layouts.html' %}
+
+
+{% block mycontent %}
+
+<br>
+<h1><center>ICT ACADEMY OF KERALA</center></h1><br><br>
+
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+
+        <div class="jumbotron">
+
+        <form method="POST" action="/send" >
+
+            <div class="row">
+
+                <div class="col-sm-12"><center> <h3> CONTACT FORM</h3></center></div>
+
+            </div>
+
+            <div class="row">
+                
+                <div class="col-sm-12"><input type="text" class="form-control" name="name" placeholder="NAME" required ></div>
+            </div><br>
+            <div class="row">
+                
+                <div class="col-sm-12"><input type="text" class="form-control" name="email" placeholder="EMAIL-ID" required></div>
+            </div><br>
+            <div class="row">
+                 
+                 <div class="col-sm-12"><input type="number" class="form-control" name="mobile" placeholder="MOBILE NUMBER" required></div>
+            </div><br>
+            <div class="row">
+               
+                 <div class="col-sm-12"> <textarea class="form-control" rows="2" name="address" placeholder="ADDRESS"required></textarea>   </div>
+           </div><br>
+           <div class="row">
+                
+                 <div class="col-sm-12"><textarea class="form-control" rows="2" name="message" placeholder="MESSAGE"required></textarea></div>
+           </div><br>
+           <div class="row">
+                
+                <div class="col-sm-5"></div>
+                <div class="col-sm-7"><button class=" btn btn-info" type="submit">  SUBMIT</button></div>
+            </div>
+
+
+        </div>
+
+
+        </form>
+
+
+
+    </div>
+
+
+
+</div>
+
+{% endblock %}
